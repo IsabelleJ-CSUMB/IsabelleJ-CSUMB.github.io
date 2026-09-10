@@ -1,0 +1,88 @@
+
+.title {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+     font-family: "Nabla", system-ui;
+     text-align: center;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size:xx-large;
+    font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+
+.img {
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#Team_pictures {
+    margin:auto;
+    padding:20px;
+    width: 90%;
+    text-align: center;
+    background-color:silver;
+}
+
+#pics {
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+    height:300px;
+    width:80%
+}
+
+.column {
+    width: 20%;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.CSUMB_image {
+    width: 199px;
+    height: 73px;
+    
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.footer {
+    text-align: left;
+    background-color: black;
+    color:white;
+}
+
+.normal_text {
+
+
+  font-family: "Atomic Age", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+#about_body {
+    background-color:silver;
+}
+
+.nav {
+    text-align: center;
+}
+
+#contact_body {
+
+
+    background-color: silver;
+
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+#contact_keeper {
+    background-color: silver;
+    
+}
