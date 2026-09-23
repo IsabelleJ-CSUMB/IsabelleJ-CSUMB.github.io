@@ -1,0 +1,74 @@
+body {
+    background-color: beige;
+}
+
+#headerDiv {
+    font-family: cursive;
+    font-size:x-large;
+    color: teal;
+    text-decoration:underline;
+    text-decoration-color: black;
+    text-align: center;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
+    font-style: oblique;
+}
+
+.normalText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+#winLosses {
+    text-align: left;
+    background-color: beige;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-top:25px;
+
+}
+
+#inputDiv {
+    padding-top: 150px;
+    text-align: center;
+    height:150px;
+}
+
+#buttonsDiv {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.buttons {
+    height:50px;
+    width: 100px;
+
+}
+
+#guessInput {
+    font-size: xxx-large;
+    font-weight: bolder;
+    height: 100px;
+    width: 125px;
+    outline-style:inset;
+    outline-color: aquamarine;
+    font-family: cursive;
+}
+
+#guessButton {
+    background-color: lightgreen;
+}
+
+#resetButton {
+    opacity: 25%;
+    background-color: lightcoral;
+}
+
+#mainDiv {
+    /* this is kinda an easter egg, i put it in cuz i couldn't find a fitting background and thougth this was funny */
+    background-image: url("images/bliss.jpg");
+    height:650px;
+    
+}

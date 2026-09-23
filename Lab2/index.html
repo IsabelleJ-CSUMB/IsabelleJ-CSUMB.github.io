@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="headerDiv">
+        <h1>Guess a number between 1 and 99, you have 7 tries!</h1>
+    </div>
+    
+    <div id="mainDiv">
+        <div id="inputDiv">
+        <input id="guessInput" class="normalText" type="number">
+    </div>
+    <div id="buttonsDiv">
+        <button id="guessButton" class="normalText buttons">Guess!</button>
+        <button id="resetButton" class="normalText buttons">Reset</button>
+    </div>
+    
+    <div id="lowerTextDiv">
+        <p id="guesses" class="normalText"></p>
+        <p id="guessMsg" class="normalText">Make a guess above!</p>
+        <p id="answer" class="normalText"></p>
+    </div>
+    </div>
+    
+    <div id="lowestTextDiv">
+        <p id="winLosses" class="normalText"> Wins of Total Plays: 0/0</p>
+    </div>
+
+
+    <script src=scripts/javascript.js defer></script>
+
+</body>
+</html>
