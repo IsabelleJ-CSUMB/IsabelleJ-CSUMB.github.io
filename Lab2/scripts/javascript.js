@@ -107,6 +107,8 @@ guessButton.addEventListener("click", function (){
         guesses.textContent = "";
         guessMsg.textContent = "Make a guess above!";
         guessMsg.style.color = "black";
+        answerMsg.textContent = "";
+
  })
 
 
