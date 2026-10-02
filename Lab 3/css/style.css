@@ -1,0 +1,44 @@
+body {
+    background-image: url("images/world.PNG");
+    background-size: 100%;
+}
+
+#title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 44pt;
+    background-color: gold;
+    padding:10px;
+}
+
+.regText {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    background-color: aliceblue;
+    padding: 5px;
+}
+
+#mainDiv {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color:rgb(156, 230, 255);
+    border-radius: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#submit_button {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration:underline;
+    border-style: hidden;
+    height: 100px;
+    width: 250px;
+    font-size: xx-large;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: gold;
+    margin-top: 50px;
+}
